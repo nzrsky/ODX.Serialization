@@ -24,5 +24,5 @@
 #import <Foundation/Foundation.h>
 
 @interface NSObject (ODSerialization)
-+ (id)od_serialize;
+- (id)od_serialize;
 @end

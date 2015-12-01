@@ -25,7 +25,7 @@
 
 @implementation NSObject (ODSerialization)
 
-+ (id)od_serialize {
+- (id)od_serialize {
     return @{};
 }
 
@@ -33,7 +33,7 @@
 
 @implementation NSString (ODSerialization)
 
-+ (id)od_serialize {
+- (id)od_serialize {
     return self;
 }
 
@@ -41,7 +41,7 @@
 
 @implementation NSNumber (ODSerialization)
 
-+ (id)od_serialize {
+- (id)od_serialize {
     return self;
 }
 

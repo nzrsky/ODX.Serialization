@@ -1,5 +1,5 @@
 //
-// NSObject+ODDeserialization.h
+// ODNSObjectParser.h
 //
 // Copyright (c) 2009-2015 Alexey Nazaroff, AJR
 //
@@ -24,7 +24,16 @@
 #import <Foundation/Foundation.h>
 #import "ODDataObjectProtocol.h"
 
-@interface NSObject (ODDeserialization)
-+ (id)od_constructWithObject:(NSObject *)obj error:(NSError **)error;
-@end
+typedef NS_ENUM(NSUInteger, ODNSObjectParserErrorCode) {
+    ODNSObjectParserErrorIvalidObject  = 10000,
+    ODNSObjectParserErrorFieldNotFound = 10001
+};
 
+NS_INLINE NSError *ODNSObjectParserErrorWithCode(ODNSObjectParserErrorCode code) {
+    return [NSError errorWithDomain:@"com.ajr.odx" code:code userInfo:nil];
+}
+
+@interface ODNSObjectParser : NSObject
+- (id)constructObjectWithClass:(Class)cls dataObject:(NSObject *)dataObj error:(NSError **)error;
++ (BOOL)isValidDataObject:(id)obj;
+@end

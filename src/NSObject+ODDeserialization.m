@@ -1,5 +1,5 @@
 //
-// NSObject+ODDeserialization.h
+// NSObject+ODDeserialization.m
 //
 // Copyright (c) 2009-2015 Alexey Nazaroff, AJR
 //
@@ -22,7 +22,12 @@
 // THE SOFTWARE.
 
 #import "NSObject+ODDeserialization.h"
+#import "ODNSObjectParser.h"
 
 @implementation NSObject (ODDeserialization)
+
++ (id)od_constructWithObject:(NSObject *)dataObj error:(NSError **)error {
+    return [[ODNSObjectParser new] constructObjectWithClass:self.class dataObject:dataObj error:error];
+}
 
 @end

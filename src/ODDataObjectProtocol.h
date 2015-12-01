@@ -1,5 +1,5 @@
 //
-// NSObject+ODDeserialization.h
+// ODNSObjectParser.h
 //
 // Copyright (c) 2009-2015 Alexey Nazaroff, AJR
 //
@@ -21,10 +21,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <Foundation/Foundation.h>
-#import "ODDataObjectProtocol.h"
+#ifndef ODDataObjectProtocol_h
+#define ODDataObjectProtocol_h
 
-@interface NSObject (ODDeserialization)
-+ (id)od_constructWithObject:(NSObject *)obj error:(NSError **)error;
+@protocol ODDataObject <NSObject>
+@optional
++ (Class)classOfIvarWithName:(NSString *)name;
 @end
 
+#endif /* ODDataObjectProtocol_h */
