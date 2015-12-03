@@ -14,12 +14,16 @@ ODX.Serialization is utility classes for serialization Objective-C objects.
 
 ## Installation
 
-ODX.Serialization is available through [CocoaPods](http://cocoapods.org). To install
+### CocoaPods
+ODX.Serialization is available through [CocoaPods](http://cocoapods.org). It's much more easier. To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "ODX.Serialization"
 ```
+### Manual
+
+For build ODX.Serialization as library you need to put [ODObjcRuntime](https://github.com/Rogaven/ODObjCRuntime.git) and [ODX.Core](https://github.com/Rogaven/ODX.Core.git) projects in the same directory
 
 ## Author
 
