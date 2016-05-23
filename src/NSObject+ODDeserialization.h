@@ -24,7 +24,16 @@
 #import <Foundation/Foundation.h>
 #import "ODDataObjectProtocol.h"
 
-@interface NSObject (ODDeserialization)
-+ (id)od_constructWithObject:(NSObject *)obj error:(NSError **)error;
+@interface NSObject (ODXSerialization_Deserialization)
+
+/** Create object of current class from NSDictionary. 
+    Using that it's possible to convert json string to model object.
+    
+    @param obj – Source "raw" object: NSDictionary or NSArray
+    @param error – Pointer to result NSError.
+    @return Model object filled from source
+ */
++ (id)od_constructWithObject:(NSObject *)obj error:(NSError * __autoreleasing *)error;
+
 @end
 

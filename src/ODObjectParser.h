@@ -24,16 +24,23 @@
 #import <Foundation/Foundation.h>
 #import "ODDataObjectProtocol.h"
 
-typedef NS_ENUM(NSUInteger, ODNSObjectParserErrorCode) {
-    ODNSObjectParserErrorIvalidObject  = 10000,
-    ODNSObjectParserErrorFieldNotFound = 10001
+typedef NS_ENUM(NSUInteger, ODObjectParserErrorCode) {
+    ODObjectParserErrorIvalidObject  = 10000,
+    ODObjectParserErrorFieldNotFound = 10001
 };
 
-NS_INLINE NSError *ODNSObjectParserErrorWithCode(ODNSObjectParserErrorCode code) {
-    return [NSError errorWithDomain:@"com.ajr.odx" code:code userInfo:nil];
-}
+@interface ODObjectParser : NSObject
 
-@interface ODNSObjectParser : NSObject
-- (id)constructObjectWithClass:(Class)cls dataObject:(NSObject *)dataObj error:(NSError **)error;
+/** Create object of current class from NSDictionary.
+ 
+ @param cls – Result object's class
+ @param dataObj – Source "raw" object: NSDictionary or NSArray
+ @param error – Pointer to result NSError.
+ @return Model object filled from source
+ */
+- (id)constructObjectWithClass:(Class)cls dataObject:(NSObject *)dataObj error:(NSError *__autoreleasing *)error;
+
+/** Check what object is valid for ODObjectParser */
 + (BOOL)isValidDataObject:(id)obj;
+
 @end

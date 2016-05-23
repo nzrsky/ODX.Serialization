@@ -16,130 +16,27 @@
 		FA16A6371C05E96400394311 /* ODXSerialization_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2C30341C007E3300BD3CE5 /* ODXSerialization_Tests.m */; };
 		FA2C30351C007E3300BD3CE5 /* ODXSerialization_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2C30341C007E3300BD3CE5 /* ODXSerialization_Tests.m */; };
 		FA2C30371C007E3300BD3CE5 /* libODXSerialization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2C30221C007E1300BD3CE5 /* libODXSerialization.a */; };
-		FA5765B71C0DD3E700D6AB07 /* ODNSObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5765B41C0DD3E700D6AB07 /* ODNSObjectParser.m */; };
-		FA5765B81C0DD3E700D6AB07 /* ODNSObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5765B41C0DD3E700D6AB07 /* ODNSObjectParser.m */; };
-		FA5765B91C0DD3E700D6AB07 /* ODNSObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5765B41C0DD3E700D6AB07 /* ODNSObjectParser.m */; };
+		FA5765B71C0DD3E700D6AB07 /* ODObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5765B41C0DD3E700D6AB07 /* ODObjectParser.m */; };
+		FA5765B81C0DD3E700D6AB07 /* ODObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5765B41C0DD3E700D6AB07 /* ODObjectParser.m */; };
+		FA5765B91C0DD3E700D6AB07 /* ODObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5765B41C0DD3E700D6AB07 /* ODObjectParser.m */; };
 		FA5765BA1C0DD52100D6AB07 /* ODDataObjectProtocol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5765B21C0DD3E700D6AB07 /* ODDataObjectProtocol.h */; };
-		FA5765BB1C0DD52100D6AB07 /* ODNSObjectParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5765B31C0DD3E700D6AB07 /* ODNSObjectParser.h */; };
+		FA5765BB1C0DD52100D6AB07 /* ODObjectParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5765B31C0DD3E700D6AB07 /* ODObjectParser.h */; };
 		FA5765BC1C0DD52100D6AB07 /* NSObject+ODSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA0A6C521C07472100CF5866 /* NSObject+ODSerialization.h */; };
 		FA5765BD1C0DD52100D6AB07 /* NSObject+ODDeserialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA0A6C581C074B3100CF5866 /* NSObject+ODDeserialization.h */; };
 		FA5765BE1C0DD52D00D6AB07 /* ODDataObjectProtocol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5765B21C0DD3E700D6AB07 /* ODDataObjectProtocol.h */; };
-		FA5765BF1C0DD52D00D6AB07 /* ODNSObjectParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5765B31C0DD3E700D6AB07 /* ODNSObjectParser.h */; };
+		FA5765BF1C0DD52D00D6AB07 /* ODObjectParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5765B31C0DD3E700D6AB07 /* ODObjectParser.h */; };
 		FA5765C01C0DD52D00D6AB07 /* NSObject+ODSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA0A6C521C07472100CF5866 /* NSObject+ODSerialization.h */; };
 		FA5765C11C0DD52D00D6AB07 /* NSObject+ODDeserialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA0A6C581C074B3100CF5866 /* NSObject+ODDeserialization.h */; };
 		FA5765C21C0DD53700D6AB07 /* ODDataObjectProtocol.h in Copy Files */ = {isa = PBXBuildFile; fileRef = FA5765B21C0DD3E700D6AB07 /* ODDataObjectProtocol.h */; };
-		FA5765C31C0DD53700D6AB07 /* ODNSObjectParser.h in Copy Files */ = {isa = PBXBuildFile; fileRef = FA5765B31C0DD3E700D6AB07 /* ODNSObjectParser.h */; };
+		FA5765C31C0DD53700D6AB07 /* ODObjectParser.h in Copy Files */ = {isa = PBXBuildFile; fileRef = FA5765B31C0DD3E700D6AB07 /* ODObjectParser.h */; };
 		FA5765C41C0DD53700D6AB07 /* NSObject+ODSerialization.h in Copy Files */ = {isa = PBXBuildFile; fileRef = FA0A6C521C07472100CF5866 /* NSObject+ODSerialization.h */; };
 		FA5765C51C0DD53700D6AB07 /* NSObject+ODDeserialization.h in Copy Files */ = {isa = PBXBuildFile; fileRef = FA0A6C581C074B3100CF5866 /* NSObject+ODDeserialization.h */; };
 		FA74502C1C060620008A9024 /* libODXSerialization-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA16A5F91C0506DD00394311 /* libODXSerialization-OSX.a */; };
+		FA7DFEE91CF2540500160F1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7DFEE81CF2540500160F1E /* main.m */; };
+		FA7DFEF21CF254C900160F1E /* libODXSerialization-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA16A5F91C0506DD00394311 /* libODXSerialization-OSX.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FA09B23C1C10800400311153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA09B2361C10800400311153 /* ODObjCRuntime.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA2C30221C007E1300BD3CE5;
-			remoteInfo = ODObjCRuntime;
-		};
-		FA09B23E1C10800400311153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA09B2361C10800400311153 /* ODObjCRuntime.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA16A5F91C0506DD00394311;
-			remoteInfo = "ODObjCRuntime-OSX";
-		};
-		FA09B2401C10800400311153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA09B2361C10800400311153 /* ODObjCRuntime.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA2C30321C007E3300BD3CE5;
-			remoteInfo = Tests;
-		};
-		FA09B2421C10802700311153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA09B2361C10800400311153 /* ODObjCRuntime.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = FA2C30211C007E1300BD3CE5;
-			remoteInfo = ODObjCRuntime;
-		};
-		FA09B2441C10802B00311153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA09B2361C10800400311153 /* ODObjCRuntime.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = FA16A5F81C0506DD00394311;
-			remoteInfo = "ODObjCRuntime-OSX";
-		};
-		FA09B24E1C10809A00311153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA09B2461C10809A00311153 /* ODXCore.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA2C30221C007E1300BD3CE5;
-			remoteInfo = ODXCore;
-		};
-		FA09B2501C10809A00311153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA09B2461C10809A00311153 /* ODXCore.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA16A5F91C0506DD00394311;
-			remoteInfo = "ODXCore-OSX";
-		};
-		FA09B2521C10809A00311153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA09B2461C10809A00311153 /* ODXCore.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA74514B1C064A2A008A9024;
-			remoteInfo = "ODXCore-WatchOS";
-		};
-		FA09B2541C10809A00311153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA09B2461C10809A00311153 /* ODXCore.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA2C30321C007E3300BD3CE5;
-			remoteInfo = OXCore_Tests;
-		};
-		FA09B2561C10809A00311153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA09B2461C10809A00311153 /* ODXCore.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA16A6421C05E96400394311;
-			remoteInfo = "OXCore-OSX_Tests";
-		};
-		FA09B2581C1080A700311153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA09B2461C10809A00311153 /* ODXCore.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = FA2C30211C007E1300BD3CE5;
-			remoteInfo = ODXCore;
-		};
-		FA09B25A1C1080AC00311153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA09B2461C10809A00311153 /* ODXCore.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = FA16A5F81C0506DD00394311;
-			remoteInfo = "ODXCore-OSX";
-		};
-		FA09B25C1C1080B200311153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA09B2461C10809A00311153 /* ODXCore.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = FA7451381C064A2A008A9024;
-			remoteInfo = "ODXCore-WatchOS";
-		};
-		FA09B26B1C1080F300311153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA09B2361C10800400311153 /* ODObjCRuntime.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = FA09B2611C1080D100311153;
-			remoteInfo = "ODObjCRuntime-WatchOS";
-		};
-		FA09B26E1C1080F300311153 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA09B2361C10800400311153 /* ODObjCRuntime.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA09B2621C1080D100311153;
-			remoteInfo = "ODObjCRuntime-WatchOS";
-		};
 		FA2C30381C007E3300BD3CE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FA2C301A1C007E1300BD3CE5 /* Project object */;
@@ -148,6 +45,13 @@
 			remoteInfo = ODXSerialization;
 		};
 		FA7450171C060504008A9024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C301A1C007E1300BD3CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA16A5F81C0506DD00394311;
+			remoteInfo = "ODXSerialization-OSX";
+		};
+		FA7DFEF51CF254D200160F1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FA2C301A1C007E1300BD3CE5 /* Project object */;
 			proxyType = 1;
@@ -164,7 +68,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				FA5765BA1C0DD52100D6AB07 /* ODDataObjectProtocol.h in CopyFiles */,
-				FA5765BB1C0DD52100D6AB07 /* ODNSObjectParser.h in CopyFiles */,
+				FA5765BB1C0DD52100D6AB07 /* ODObjectParser.h in CopyFiles */,
 				FA5765BC1C0DD52100D6AB07 /* NSObject+ODSerialization.h in CopyFiles */,
 				FA5765BD1C0DD52100D6AB07 /* NSObject+ODDeserialization.h in CopyFiles */,
 			);
@@ -177,7 +81,7 @@
 			dstSubfolderSpec = 16;
 			files = (
 				FA5765BE1C0DD52D00D6AB07 /* ODDataObjectProtocol.h in CopyFiles */,
-				FA5765BF1C0DD52D00D6AB07 /* ODNSObjectParser.h in CopyFiles */,
+				FA5765BF1C0DD52D00D6AB07 /* ODObjectParser.h in CopyFiles */,
 				FA5765C01C0DD52D00D6AB07 /* NSObject+ODSerialization.h in CopyFiles */,
 				FA5765C11C0DD52D00D6AB07 /* NSObject+ODDeserialization.h in CopyFiles */,
 			);
@@ -190,18 +94,25 @@
 			dstSubfolderSpec = 16;
 			files = (
 				FA5765C21C0DD53700D6AB07 /* ODDataObjectProtocol.h in Copy Files */,
-				FA5765C31C0DD53700D6AB07 /* ODNSObjectParser.h in Copy Files */,
+				FA5765C31C0DD53700D6AB07 /* ODObjectParser.h in Copy Files */,
 				FA5765C41C0DD53700D6AB07 /* NSObject+ODSerialization.h in Copy Files */,
 				FA5765C51C0DD53700D6AB07 /* NSObject+ODDeserialization.h in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA7DFEE41CF2540500160F1E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FA09B2361C10800400311153 /* ODObjCRuntime.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ODObjCRuntime.xcodeproj; path = ../ODObjCRuntime/ODObjCRuntime.xcodeproj; sourceTree = "<group>"; };
-		FA09B2461C10809A00311153 /* ODXCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ODXCore.xcodeproj; path = ../ODX.Core/ODXCore.xcodeproj; sourceTree = "<group>"; };
 		FA0A6C521C07472100CF5866 /* NSObject+ODSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ODSerialization.h"; sourceTree = "<group>"; };
 		FA0A6C531C07472100CF5866 /* NSObject+ODSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ODSerialization.m"; sourceTree = "<group>"; };
 		FA0A6C581C074B3100CF5866 /* NSObject+ODDeserialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ODDeserialization.h"; sourceTree = "<group>"; };
@@ -216,9 +127,11 @@
 		FA2C30421C0080F000BD3CE5 /* ODX.Serialization.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ODX.Serialization.podspec; sourceTree = SOURCE_ROOT; };
 		FA2C30431C0080F000BD3CE5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		FA5765B21C0DD3E700D6AB07 /* ODDataObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODDataObjectProtocol.h; sourceTree = "<group>"; };
-		FA5765B31C0DD3E700D6AB07 /* ODNSObjectParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODNSObjectParser.h; sourceTree = "<group>"; };
-		FA5765B41C0DD3E700D6AB07 /* ODNSObjectParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODNSObjectParser.m; sourceTree = "<group>"; };
+		FA5765B31C0DD3E700D6AB07 /* ODObjectParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODObjectParser.h; sourceTree = "<group>"; };
+		FA5765B41C0DD3E700D6AB07 /* ODObjectParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODObjectParser.m; sourceTree = "<group>"; };
 		FA7451211C0648C7008A9024 /* libODXSerialization-WatchOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libODXSerialization-WatchOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7DFEE61CF2540500160F1E /* sample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sample; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7DFEE81CF2540500160F1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,39 +172,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA7DFEE31CF2540500160F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7DFEF21CF254C900160F1E /* libODXSerialization-OSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		A8102D208CE5ED1AE7CC7689 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA09B2461C10809A00311153 /* ODXCore.xcodeproj */,
-				FA09B2361C10800400311153 /* ODObjCRuntime.xcodeproj */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FA09B2371C10800400311153 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FA09B23D1C10800400311153 /* libODObjCRuntime.a */,
-				FA09B23F1C10800400311153 /* libODObjCRuntime-OSX.a */,
-				FA09B26F1C1080F300311153 /* libODObjCRuntime-WatchOS.a */,
-				FA09B2411C10800400311153 /* Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FA09B2471C10809A00311153 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FA09B24F1C10809A00311153 /* libODXCore.a */,
-				FA09B2511C10809A00311153 /* libODXCore-OSX.a */,
-				FA09B2531C10809A00311153 /* libODXCore-WatchOS.a */,
-				FA09B2551C10809A00311153 /* OXCore_Tests.xctest */,
-				FA09B2571C10809A00311153 /* OXCore-OSX_Tests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FA2C30191C007E1300BD3CE5 = {
@@ -302,6 +198,7 @@
 				FA2C30431C0080F000BD3CE5 /* README.md */,
 				FA2C303D1C0080DA00BD3CE5 /* src */,
 				FA2C30331C007E3300BD3CE5 /* Tests */,
+				FA7DFEE71CF2540500160F1E /* sample */,
 				A8102D208CE5ED1AE7CC7689 /* Frameworks */,
 				FA2C30231C007E1300BD3CE5 /* Products */,
 			);
@@ -315,6 +212,7 @@
 				FA16A5F91C0506DD00394311 /* libODXSerialization-OSX.a */,
 				FA16A6421C05E96400394311 /* OSX Tests.xctest */,
 				FA7451211C0648C7008A9024 /* libODXSerialization-WatchOS.a */,
+				FA7DFEE61CF2540500160F1E /* sample */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -332,14 +230,22 @@
 			isa = PBXGroup;
 			children = (
 				FA5765B21C0DD3E700D6AB07 /* ODDataObjectProtocol.h */,
-				FA5765B31C0DD3E700D6AB07 /* ODNSObjectParser.h */,
-				FA5765B41C0DD3E700D6AB07 /* ODNSObjectParser.m */,
+				FA5765B31C0DD3E700D6AB07 /* ODObjectParser.h */,
+				FA5765B41C0DD3E700D6AB07 /* ODObjectParser.m */,
 				FA0A6C521C07472100CF5866 /* NSObject+ODSerialization.h */,
 				FA0A6C531C07472100CF5866 /* NSObject+ODSerialization.m */,
 				FA0A6C581C074B3100CF5866 /* NSObject+ODDeserialization.h */,
 				FA0A6C591C074B3100CF5866 /* NSObject+ODDeserialization.m */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		FA7DFEE71CF2540500160F1E /* sample */ = {
+			isa = PBXGroup;
+			children = (
+				FA7DFEE81CF2540500160F1E /* main.m */,
+			);
+			path = sample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,8 +273,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				FA09B25B1C1080AC00311153 /* PBXTargetDependency */,
-				FA09B2451C10802B00311153 /* PBXTargetDependency */,
 			);
 			name = "ODXSerialization-OSX";
 			productName = "ODXSerialization-OSX";
@@ -404,8 +308,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				FA09B2591C1080A700311153 /* PBXTargetDependency */,
-				FA09B2431C10802700311153 /* PBXTargetDependency */,
 			);
 			name = ODXSerialization;
 			productName = ODXSerialization;
@@ -441,13 +343,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				FA09B26C1C1080F300311153 /* PBXTargetDependency */,
-				FA09B25D1C1080B200311153 /* PBXTargetDependency */,
 			);
 			name = "ODXSerialization-WatchOS";
 			productName = "ODXSerialization-WatchOS";
 			productReference = FA7451211C0648C7008A9024 /* libODXSerialization-WatchOS.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		FA7DFEE51CF2540500160F1E /* sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7DFEEA1CF2540500160F1E /* Build configuration list for PBXNativeTarget "sample" */;
+			buildPhases = (
+				FA7DFEE21CF2540500160F1E /* Sources */,
+				FA7DFEE31CF2540500160F1E /* Frameworks */,
+				FA7DFEE41CF2540500160F1E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7DFEF61CF254D200160F1E /* PBXTargetDependency */,
+			);
+			name = sample;
+			productName = sample;
+			productReference = FA7DFEE61CF2540500160F1E /* sample */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -470,6 +388,9 @@
 					FA7451201C0648C7008A9024 = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
+					FA7DFEE51CF2540500160F1E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 				};
 			};
 			buildConfigurationList = FA2C301D1C007E1300BD3CE5 /* Build configuration list for PBXProject "ODXSerialization" */;
@@ -483,16 +404,6 @@
 			mainGroup = FA2C30191C007E1300BD3CE5;
 			productRefGroup = FA2C30231C007E1300BD3CE5 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = FA09B2371C10800400311153 /* Products */;
-					ProjectRef = FA09B2361C10800400311153 /* ODObjCRuntime.xcodeproj */;
-				},
-				{
-					ProductGroup = FA09B2471C10809A00311153 /* Products */;
-					ProjectRef = FA09B2461C10809A00311153 /* ODXCore.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				FA2C30211C007E1300BD3CE5 /* ODXSerialization */,
@@ -500,75 +411,10 @@
 				FA7451201C0648C7008A9024 /* ODXSerialization-WatchOS */,
 				FA2C30311C007E3300BD3CE5 /* iOS Tests */,
 				FA16A6311C05E96400394311 /* OSX Tests */,
+				FA7DFEE51CF2540500160F1E /* sample */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		FA09B23D1C10800400311153 /* libODObjCRuntime.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libODObjCRuntime.a;
-			remoteRef = FA09B23C1C10800400311153 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA09B23F1C10800400311153 /* libODObjCRuntime-OSX.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libODObjCRuntime-OSX.a";
-			remoteRef = FA09B23E1C10800400311153 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA09B2411C10800400311153 /* Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Tests.xctest;
-			remoteRef = FA09B2401C10800400311153 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA09B24F1C10809A00311153 /* libODXCore.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libODXCore.a;
-			remoteRef = FA09B24E1C10809A00311153 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA09B2511C10809A00311153 /* libODXCore-OSX.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libODXCore-OSX.a";
-			remoteRef = FA09B2501C10809A00311153 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA09B2531C10809A00311153 /* libODXCore-WatchOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libODXCore-WatchOS.a";
-			remoteRef = FA09B2521C10809A00311153 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA09B2551C10809A00311153 /* OXCore_Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = OXCore_Tests.xctest;
-			remoteRef = FA09B2541C10809A00311153 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA09B2571C10809A00311153 /* OXCore-OSX_Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "OXCore-OSX_Tests.xctest";
-			remoteRef = FA09B2561C10809A00311153 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA09B26F1C1080F300311153 /* libODObjCRuntime-WatchOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libODObjCRuntime-WatchOS.a";
-			remoteRef = FA09B26E1C1080F300311153 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FA16A63C1C05E96400394311 /* Resources */ = {
@@ -593,7 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0A6C5C1C074B3100CF5866 /* NSObject+ODDeserialization.m in Sources */,
-				FA5765B81C0DD3E700D6AB07 /* ODNSObjectParser.m in Sources */,
+				FA5765B81C0DD3E700D6AB07 /* ODObjectParser.m in Sources */,
 				FA0A6C561C07472100CF5866 /* NSObject+ODSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -611,7 +457,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0A6C5B1C074B3100CF5866 /* NSObject+ODDeserialization.m in Sources */,
-				FA5765B71C0DD3E700D6AB07 /* ODNSObjectParser.m in Sources */,
+				FA5765B71C0DD3E700D6AB07 /* ODObjectParser.m in Sources */,
 				FA0A6C551C07472100CF5866 /* NSObject+ODSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -629,44 +475,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0A6C5D1C074B3100CF5866 /* NSObject+ODDeserialization.m in Sources */,
-				FA5765B91C0DD3E700D6AB07 /* ODNSObjectParser.m in Sources */,
+				FA5765B91C0DD3E700D6AB07 /* ODObjectParser.m in Sources */,
 				FA0A6C571C07472100CF5866 /* NSObject+ODSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7DFEE21CF2540500160F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7DFEE91CF2540500160F1E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FA09B2431C10802700311153 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ODObjCRuntime;
-			targetProxy = FA09B2421C10802700311153 /* PBXContainerItemProxy */;
-		};
-		FA09B2451C10802B00311153 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ODObjCRuntime-OSX";
-			targetProxy = FA09B2441C10802B00311153 /* PBXContainerItemProxy */;
-		};
-		FA09B2591C1080A700311153 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ODXCore;
-			targetProxy = FA09B2581C1080A700311153 /* PBXContainerItemProxy */;
-		};
-		FA09B25B1C1080AC00311153 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ODXCore-OSX";
-			targetProxy = FA09B25A1C1080AC00311153 /* PBXContainerItemProxy */;
-		};
-		FA09B25D1C1080B200311153 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ODXCore-WatchOS";
-			targetProxy = FA09B25C1C1080B200311153 /* PBXContainerItemProxy */;
-		};
-		FA09B26C1C1080F300311153 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ODObjCRuntime-WatchOS";
-			targetProxy = FA09B26B1C1080F300311153 /* PBXContainerItemProxy */;
-		};
 		FA2C30391C007E3300BD3CE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FA2C30211C007E1300BD3CE5 /* ODXSerialization */;
@@ -676,6 +500,11 @@
 			isa = PBXTargetDependency;
 			target = FA16A5F81C0506DD00394311 /* ODXSerialization-OSX */;
 			targetProxy = FA7450171C060504008A9024 /* PBXContainerItemProxy */;
+		};
+		FA7DFEF61CF254D200160F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA16A5F81C0506DD00394311 /* ODXSerialization-OSX */;
+			targetProxy = FA7DFEF51CF254D200160F1E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -902,6 +731,43 @@
 			};
 			name = Release;
 		};
+		FA7DFEEB1CF2540500160F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lODXSerialization-OSX",
+					"-lODXCore-OSX",
+					"-lODObjCRuntime-OSX",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA7DFEEC1CF2540500160F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lODXSerialization-OSX",
+					"-lODXCore-OSX",
+					"-lODObjCRuntime-OSX",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -958,6 +824,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FA7DFEEA1CF2540500160F1E /* Build configuration list for PBXNativeTarget "sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7DFEEB1CF2540500160F1E /* Debug */,
+				FA7DFEEC1CF2540500160F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

@@ -23,6 +23,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (ODSerialization)
+@interface NSObject (ODXSerialization)
+
+/** Convert any object to NSDictionary or NSArray with NSStrings, NSNumbers and NSNull.
+    After this new object can be converted to JSON string. */
 - (id)od_serialize;
+
 @end

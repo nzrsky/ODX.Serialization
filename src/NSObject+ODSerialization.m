@@ -22,16 +22,46 @@
 // THE SOFTWARE.
 
 #import "NSObject+ODSerialization.h"
+#import <ODObjCRuntime/ODObjCRuntime.h>
+#import <ODObjCRuntime/ODObjCIvar.h>
+#import <ODX.Core/NSObject+ODTransformation.h>
+#import <ODX.Core/NSObject+ODValidation.h>
 
-@implementation NSObject (ODSerialization)
+@implementation NSObject (ODXSerialization)
 
 - (id)od_serialize {
-    return @{};
+    NSArray<ODObjCIvar *> *ivars = [self.class od_availableIvars];
+    return [NSDictionary dictionaryWithObjects:[ivars od_mapObjects:^id(ODObjCIvar *ivar, NSUInteger idx) {
+        return [[self valueForKey:ivar.name] od_serialize] ?: [NSNull null];
+    }] forKeys:[ivars od_mapObjects:^id(ODObjCIvar *ivar, NSUInteger idx) {
+        NSString *name = ivar.name;
+        return ([name hasPrefix:@"_"]) ? [name substringFromIndex:1] : name;
+    }]];
 }
 
 @end
 
-@implementation NSString (ODSerialization)
+@implementation NSArray (ODXSerialization)
+
+- (id)od_serialize {
+    return (self.count == 0) ? @[] : [self od_mapObjects:^id(id obj, NSUInteger idx) {
+        return [obj od_serialize];
+    }];
+}
+
+@end
+
+@implementation NSDictionary (ODXSerialization)
+
+- (id)od_serialize {
+    return (self.count == 0) ? @{} : [self od_mapObjects:^id(id key, id obj) {
+        return [obj od_serialize];
+    }];
+}
+
+@end
+
+@implementation NSString (ODXSerialization)
 
 - (id)od_serialize {
     return self;
@@ -39,7 +69,15 @@
 
 @end
 
-@implementation NSNumber (ODSerialization)
+@implementation NSNumber (ODXSerialization)
+
+- (id)od_serialize {
+    return self;
+}
+
+@end
+
+@implementation NSNull (ODXSerialization)
 
 - (id)od_serialize {
     return self;

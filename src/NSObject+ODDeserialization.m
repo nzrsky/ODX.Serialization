@@ -22,12 +22,12 @@
 // THE SOFTWARE.
 
 #import "NSObject+ODDeserialization.h"
-#import "ODNSObjectParser.h"
+#import "ODObjectParser.h"
 
-@implementation NSObject (ODDeserialization)
+@implementation NSObject (ODXSerialization_Deserialization)
 
-+ (id)od_constructWithObject:(NSObject *)dataObj error:(NSError **)error {
-    return [[ODNSObjectParser new] constructObjectWithClass:self.class dataObject:dataObj error:error];
++ (id)od_constructWithObject:(NSObject *)dataObj error:(NSError * __autoreleasing *)error {
+    return [[ODObjectParser new] constructObjectWithClass:self.class dataObject:dataObj error:error];
 }
 
 @end

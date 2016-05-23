@@ -26,7 +26,28 @@
 
 @protocol ODDataObject <NSObject>
 @optional
+
+/** Implement this method and return needed class for any ivar. 
+ Using that you can specify class of NSArray items  
+ 
+ @example:
+ 
+        @interface Obj : NSObject <ODDataObject>
+        @property (nonatomic, copy) NSString *name;
+        @property (nonatomic, strong) NSArray *items;
+        @end
+
+        @implementation Obj
+
+        + (Class)classOfIvarWithName:(NSString *)name {
+            if ([name isEqualToString:@"_items"]) return Obj.class;
+            return nil;
+        }
+
+        @end
+ */
 + (Class)classOfIvarWithName:(NSString *)name;
+
 @end
 
 #endif /* ODDataObjectProtocol_h */
