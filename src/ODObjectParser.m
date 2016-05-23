@@ -22,10 +22,10 @@
 // THE SOFTWARE.
 
 #import "ODObjectParser.h"
-#import <ODObjCRuntime/ODObjCRuntime.h>
-#import <ODObjCRuntime/ODObjCIvar.h>
-#import <ODX.Core/NSObject+ODTransformation.h>
-#import <ODX.Core/NSObject+ODValidation.h>
+#import "ODObjCRuntime.h"
+#import "ODObjCIvar.h"
+#import "NSObject+ODTransformation.h"
+#import "NSObject+ODValidation.h"
 
 NS_INLINE NSError *ODObjectParserErrorWithCode(ODObjectParserErrorCode code) {
     return [NSError errorWithDomain:@"com.ajr.odx" code:code userInfo:nil];

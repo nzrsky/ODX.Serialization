@@ -22,10 +22,10 @@
 // THE SOFTWARE.
 
 #import "NSObject+ODSerialization.h"
-#import <ODObjCRuntime/ODObjCRuntime.h>
-#import <ODObjCRuntime/ODObjCIvar.h>
-#import <ODX.Core/NSObject+ODTransformation.h>
-#import <ODX.Core/NSObject+ODValidation.h>
+#import "ODObjCRuntime.h"
+#import "ODObjCIvar.h"
+#import "NSObject+ODTransformation.h"
+#import "NSObject+ODValidation.h"
 
 @implementation NSObject (ODXSerialization)
 
