@@ -83,7 +83,8 @@ NSDictionary *jsonDict = [NSJSONSerialization JSONObjectWithData:[jsonString dat
 Obj *obj = [Obj od_constructWithObject:obj error:nil];
 
 ```
-<img width="307px" src="https://raw.github.com/Rogaven/ODX.Serialization/assets/obj_dbg.png" alt="Object debug" title="ODX.Serialization">
+<img width="307px" src="https://raw.githubusercontent.com/Rogaven/ODX.Serialization/master/assets/obj_dbg.png" alt="Object debug" title="ODX.Serialization">
+
 
 ## Installation
 
