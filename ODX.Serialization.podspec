@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ODX.Serialization"
-  s.version      = "1.6.0"
+  s.version      = "1.6.1"
   s.summary      = "Utility classes for serialization and deserialization Objective-C objects."
   s.homepage     = "https://github.com/Rogaven/ODX.Serialization"
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
