@@ -1,0 +1,33 @@
+workspace 'ODXSerialization'
+project 'ODXSerialization'
+
+platform :osx, '10.5'
+platform :ios, '7.0'
+
+def odx_sn_pod
+    pod 'ODSerialization', :path => "../ODSerialization.podspec"    
+end
+
+target 'ODSerialization' do
+    odx_sn_pod
+end
+
+target 'ODSerialization-OSX' do
+    odx_sn_pod
+end
+
+target 'ODSerialization-WatchOS' do
+    odx_sn_pod
+end
+
+target 'ODSerializationTest_iOS' do
+    odx_sn_pod
+end
+
+target 'ODSerializationTest_OSX' do
+    odx_sn_pod
+end
+
+target 'sample' do
+    odx_sn_pod
+end

@@ -1,0 +1,1034 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		633F15212EF061CD0E6D26F3 /* libPods-ODSerialization-WatchOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DDA5597330B02972084629 /* libPods-ODSerialization-WatchOS.a */; };
+		63F54E0B979DA4408467CABA /* libPods-ODSerializationTest_OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 029FA81E9B3CA07CD8CF124A /* libPods-ODSerializationTest_OSX.a */; };
+		8FD89EE093EC9CF1C7E5985C /* libPods-ODSerialization-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E25CF6CFB20CA971C336F38 /* libPods-ODSerialization-OSX.a */; };
+		A55AC57B5CBEB4878DADFCCB /* libPods-sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C00A2608ED4547354F235BE /* libPods-sample.a */; };
+		DF60FF9A39FDA6994A4DED09 /* libPods-ODSerializationTest_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB77A9F21A43515628120AD /* libPods-ODSerializationTest_iOS.a */; };
+		E154CD67F284258A3E4A4ACC /* libPods-ODSerialization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B00CD0F3EFA66F586226FBC1 /* libPods-ODSerialization.a */; };
+		FA16A6371C05E96400394311 /* ODXSerialization_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2C30341C007E3300BD3CE5 /* ODXSerialization_Tests.m */; };
+		FA2C30351C007E3300BD3CE5 /* ODXSerialization_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2C30341C007E3300BD3CE5 /* ODXSerialization_Tests.m */; };
+		FA7DFEE91CF2540500160F1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7DFEE81CF2540500160F1E /* main.m */; };
+		FA7DFEF21CF254C900160F1E /* libODSerialization-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA16A5F91C0506DD00394311 /* libODSerialization-OSX.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7DFEF51CF254D200160F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2C301A1C007E1300BD3CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA16A5F81C0506DD00394311;
+			remoteInfo = "ODXSerialization-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA2C30201C007E1300BD3CE5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include/ODX.Serialization;
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7450221C060545008A9024 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include/ODX.Serialization;
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74511F1C0648C7008A9024 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include/ODX.Serialization;
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7DFEE41CF2540500160F1E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		029FA81E9B3CA07CD8CF124A /* libPods-ODSerializationTest_OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ODSerializationTest_OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D5F712C949B9CCA69A86C4 /* Pods-ODXSerialization-WatchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODXSerialization-WatchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ODXSerialization-WatchOS/Pods-ODXSerialization-WatchOS.release.xcconfig"; sourceTree = "<group>"; };
+		0CDE5CA515D1224648207B13 /* Pods-ODSerialization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODSerialization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ODSerialization/Pods-ODSerialization.debug.xcconfig"; sourceTree = "<group>"; };
+		18DDA5597330B02972084629 /* libPods-ODSerialization-WatchOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ODSerialization-WatchOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DCA156F7EFD0509CD680371 /* Pods-ODSerializationTest_OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODSerializationTest_OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-ODSerializationTest_OSX/Pods-ODSerializationTest_OSX.release.xcconfig"; sourceTree = "<group>"; };
+		1E4B91959E8A41ECC5D01A0F /* libPods-ODXSerialization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ODXSerialization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		222F54A6EEE569CD96F7EC9F /* Pods-ODSerialization-WatchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODSerialization-WatchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ODSerialization-WatchOS/Pods-ODSerialization-WatchOS.release.xcconfig"; sourceTree = "<group>"; };
+		53F4F391CC927DB4A7B4E3DD /* Pods-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample/Pods-sample.debug.xcconfig"; sourceTree = "<group>"; };
+		57190F95BE9E81273140C371 /* Pods-ODSerialization-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODSerialization-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-ODSerialization-OSX/Pods-ODSerialization-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		6C00A2608ED4547354F235BE /* libPods-sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72FFB7F003C323FF3B53AD21 /* Pods-ODSerialization-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODSerialization-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ODSerialization-OSX/Pods-ODSerialization-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		7E25CF6CFB20CA971C336F38 /* libPods-ODSerialization-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ODSerialization-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		821897E1ADCFF640756FC610 /* Pods-ODXSerialization-WatchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODXSerialization-WatchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ODXSerialization-WatchOS/Pods-ODXSerialization-WatchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		84AB2242275F1F73516B0E3A /* Pods-ODXSerialization-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODXSerialization-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ODXSerialization-OSX/Pods-ODXSerialization-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		8AB337009F7CE1A87F081B37 /* Pods-ODSerialization-WatchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODSerialization-WatchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ODSerialization-WatchOS/Pods-ODSerialization-WatchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9ECC8E3D6C4D1A9DCC0B3FD8 /* Pods-ODXSerialization-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODXSerialization-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-ODXSerialization-OSX/Pods-ODXSerialization-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		A4EC2AE62A0E79668E8DA17F /* Pods-ODXSerialization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODXSerialization.release.xcconfig"; path = "Pods/Target Support Files/Pods-ODXSerialization/Pods-ODXSerialization.release.xcconfig"; sourceTree = "<group>"; };
+		AE9A3ECCBF2D1D209459DFE7 /* libPods-ODXSerialization-WatchOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ODXSerialization-WatchOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00CD0F3EFA66F586226FBC1 /* libPods-ODSerialization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ODSerialization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68948FF06C4C9A72891FC0C /* Pods-ODSerializationTest_OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODSerializationTest_OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ODSerializationTest_OSX/Pods-ODSerializationTest_OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		CFB77A9F21A43515628120AD /* libPods-ODSerializationTest_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ODSerializationTest_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D882C2CA0DEB0E9B684706CB /* Pods-ODXSerialization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODXSerialization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ODXSerialization/Pods-ODXSerialization.debug.xcconfig"; sourceTree = "<group>"; };
+		E1302E09DA758C8E6622348D /* libPods-ODXSerialization-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ODXSerialization-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CC0FA302097F6BF1D65B33 /* Pods-ODSerializationTest_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODSerializationTest_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ODSerializationTest_iOS/Pods-ODSerializationTest_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		E73F8A00E7A3B1959138E5CE /* Pods-ODSerializationTest_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODSerializationTest_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ODSerializationTest_iOS/Pods-ODSerializationTest_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EDEDFF25FD4F6225880D7EB4 /* Pods-ODSerialization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ODSerialization.release.xcconfig"; path = "Pods/Target Support Files/Pods-ODSerialization/Pods-ODSerialization.release.xcconfig"; sourceTree = "<group>"; };
+		EFF779C223A21655D1310964 /* Pods-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-sample/Pods-sample.release.xcconfig"; sourceTree = "<group>"; };
+		FA16A5F91C0506DD00394311 /* libODSerialization-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libODSerialization-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA16A6421C05E96400394311 /* ODSerializationTest_OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODSerializationTest_OSX.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2C30221C007E1300BD3CE5 /* libODSerialization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libODSerialization.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2C30321C007E3300BD3CE5 /* ODSerializationTest_iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODSerializationTest_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2C30341C007E3300BD3CE5 /* ODXSerialization_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODXSerialization_Tests.m; sourceTree = "<group>"; };
+		FA2C30361C007E3300BD3CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2C30411C0080F000BD3CE5 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = ../LICENSE.txt; sourceTree = SOURCE_ROOT; };
+		FA2C30421C0080F000BD3CE5 /* ODX.Serialization.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ODX.Serialization.podspec; path = ../ODX.Serialization.podspec; sourceTree = SOURCE_ROOT; };
+		FA2C30431C0080F000BD3CE5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = SOURCE_ROOT; };
+		FA7451211C0648C7008A9024 /* libODSerialization-WatchOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libODSerialization-WatchOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7DFEE61CF2540500160F1E /* sample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sample; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7DFEE81CF2540500160F1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA9FF5C51D11FC840093CD9D /* ODSerialization.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ODSerialization.podspec; path = ../ODSerialization.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA16A5F61C0506DD00394311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD89EE093EC9CF1C7E5985C /* libPods-ODSerialization-OSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA16A63A1C05E96400394311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F54E0B979DA4408467CABA /* libPods-ODSerializationTest_OSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C301F1C007E1300BD3CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E154CD67F284258A3E4A4ACC /* libPods-ODSerialization.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C302F1C007E3300BD3CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF60FF9A39FDA6994A4DED09 /* libPods-ODSerializationTest_iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74511E1C0648C7008A9024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633F15212EF061CD0E6D26F3 /* libPods-ODSerialization-WatchOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7DFEE31CF2540500160F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7DFEF21CF254C900160F1E /* libODSerialization-OSX.a in Frameworks */,
+				A55AC57B5CBEB4878DADFCCB /* libPods-sample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8102D208CE5ED1AE7CC7689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E4B91959E8A41ECC5D01A0F /* libPods-ODXSerialization.a */,
+				E1302E09DA758C8E6622348D /* libPods-ODXSerialization-OSX.a */,
+				AE9A3ECCBF2D1D209459DFE7 /* libPods-ODXSerialization-WatchOS.a */,
+				6C00A2608ED4547354F235BE /* libPods-sample.a */,
+				B00CD0F3EFA66F586226FBC1 /* libPods-ODSerialization.a */,
+				7E25CF6CFB20CA971C336F38 /* libPods-ODSerialization-OSX.a */,
+				18DDA5597330B02972084629 /* libPods-ODSerialization-WatchOS.a */,
+				029FA81E9B3CA07CD8CF124A /* libPods-ODSerializationTest_OSX.a */,
+				CFB77A9F21A43515628120AD /* libPods-ODSerializationTest_iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBED11E03D753CD4F9937CCE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D882C2CA0DEB0E9B684706CB /* Pods-ODXSerialization.debug.xcconfig */,
+				A4EC2AE62A0E79668E8DA17F /* Pods-ODXSerialization.release.xcconfig */,
+				84AB2242275F1F73516B0E3A /* Pods-ODXSerialization-OSX.debug.xcconfig */,
+				9ECC8E3D6C4D1A9DCC0B3FD8 /* Pods-ODXSerialization-OSX.release.xcconfig */,
+				821897E1ADCFF640756FC610 /* Pods-ODXSerialization-WatchOS.debug.xcconfig */,
+				05D5F712C949B9CCA69A86C4 /* Pods-ODXSerialization-WatchOS.release.xcconfig */,
+				53F4F391CC927DB4A7B4E3DD /* Pods-sample.debug.xcconfig */,
+				EFF779C223A21655D1310964 /* Pods-sample.release.xcconfig */,
+				0CDE5CA515D1224648207B13 /* Pods-ODSerialization.debug.xcconfig */,
+				EDEDFF25FD4F6225880D7EB4 /* Pods-ODSerialization.release.xcconfig */,
+				72FFB7F003C323FF3B53AD21 /* Pods-ODSerialization-OSX.debug.xcconfig */,
+				57190F95BE9E81273140C371 /* Pods-ODSerialization-OSX.release.xcconfig */,
+				8AB337009F7CE1A87F081B37 /* Pods-ODSerialization-WatchOS.debug.xcconfig */,
+				222F54A6EEE569CD96F7EC9F /* Pods-ODSerialization-WatchOS.release.xcconfig */,
+				C68948FF06C4C9A72891FC0C /* Pods-ODSerializationTest_OSX.debug.xcconfig */,
+				1DCA156F7EFD0509CD680371 /* Pods-ODSerializationTest_OSX.release.xcconfig */,
+				E73F8A00E7A3B1959138E5CE /* Pods-ODSerializationTest_iOS.debug.xcconfig */,
+				E3CC0FA302097F6BF1D65B33 /* Pods-ODSerializationTest_iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA2C30191C007E1300BD3CE5 = {
+			isa = PBXGroup;
+			children = (
+				FA2C30411C0080F000BD3CE5 /* LICENSE.txt */,
+				FA9FF5C51D11FC840093CD9D /* ODSerialization.podspec */,
+				FA2C30421C0080F000BD3CE5 /* ODX.Serialization.podspec */,
+				FA2C30431C0080F000BD3CE5 /* README.md */,
+				FA2C30331C007E3300BD3CE5 /* Tests */,
+				FA7DFEE71CF2540500160F1E /* sample */,
+				A8102D208CE5ED1AE7CC7689 /* Frameworks */,
+				FA2C30231C007E1300BD3CE5 /* Products */,
+				DBED11E03D753CD4F9937CCE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2C30231C007E1300BD3CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C30221C007E1300BD3CE5 /* libODSerialization.a */,
+				FA2C30321C007E3300BD3CE5 /* ODSerializationTest_iOS.xctest */,
+				FA16A5F91C0506DD00394311 /* libODSerialization-OSX.a */,
+				FA16A6421C05E96400394311 /* ODSerializationTest_OSX.xctest */,
+				FA7451211C0648C7008A9024 /* libODSerialization-WatchOS.a */,
+				FA7DFEE61CF2540500160F1E /* sample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2C30331C007E3300BD3CE5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C30341C007E3300BD3CE5 /* ODXSerialization_Tests.m */,
+				FA2C30361C007E3300BD3CE5 /* Info.plist */,
+			);
+			name = Tests;
+			path = ../tests;
+			sourceTree = "<group>";
+		};
+		FA7DFEE71CF2540500160F1E /* sample */ = {
+			isa = PBXGroup;
+			children = (
+				FA7DFEE81CF2540500160F1E /* main.m */,
+			);
+			path = sample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA16A5F71C0506DD00394311 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FA16A5F81C0506DD00394311 /* ODSerialization-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA16A5FF1C0506DE00394311 /* Build configuration list for PBXNativeTarget "ODSerialization-OSX" */;
+			buildPhases = (
+				B3E6FE60E4C83A3C695C2AE8 /* [CP] Check Pods Manifest.lock */,
+				FA16A5F51C0506DD00394311 /* Sources */,
+				FA16A5F61C0506DD00394311 /* Frameworks */,
+				FA16A5F71C0506DD00394311 /* Headers */,
+				FA7450221C060545008A9024 /* CopyFiles */,
+				BAA818E688CB58EC4EE4B78C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ODSerialization-OSX";
+			productName = "ODXSerialization-OSX";
+			productReference = FA16A5F91C0506DD00394311 /* libODSerialization-OSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA16A6311C05E96400394311 /* ODSerializationTest_OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA16A63F1C05E96400394311 /* Build configuration list for PBXNativeTarget "ODSerializationTest_OSX" */;
+			buildPhases = (
+				ACAF2EFED5C3147D3886063E /* [CP] Check Pods Manifest.lock */,
+				FA16A6341C05E96400394311 /* Sources */,
+				FA16A63A1C05E96400394311 /* Frameworks */,
+				FA16A63C1C05E96400394311 /* Resources */,
+				DE41BF432631D1303047E894 /* [CP] Embed Pods Frameworks */,
+				524731926DE9A1685EE27C74 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ODSerializationTest_OSX;
+			productName = Tests;
+			productReference = FA16A6421C05E96400394311 /* ODSerializationTest_OSX.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA2C30211C007E1300BD3CE5 /* ODSerialization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2C302B1C007E1300BD3CE5 /* Build configuration list for PBXNativeTarget "ODSerialization" */;
+			buildPhases = (
+				BE29A2BFBDD5CFFE2070CC44 /* [CP] Check Pods Manifest.lock */,
+				FA2C301E1C007E1300BD3CE5 /* Sources */,
+				FA2C301F1C007E1300BD3CE5 /* Frameworks */,
+				FA2C30201C007E1300BD3CE5 /* CopyFiles */,
+				FBAD430ABB31DC421FA114C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ODSerialization;
+			productName = ODXSerialization;
+			productReference = FA2C30221C007E1300BD3CE5 /* libODSerialization.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA2C30311C007E3300BD3CE5 /* ODSerializationTest_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2C303A1C007E3300BD3CE5 /* Build configuration list for PBXNativeTarget "ODSerializationTest_iOS" */;
+			buildPhases = (
+				EB3D210050B8A350E0683934 /* [CP] Check Pods Manifest.lock */,
+				FA2C302E1C007E3300BD3CE5 /* Sources */,
+				FA2C302F1C007E3300BD3CE5 /* Frameworks */,
+				FA2C30301C007E3300BD3CE5 /* Resources */,
+				21652B0D710DC08DCF2EE3B4 /* [CP] Embed Pods Frameworks */,
+				7FC01FE486423FFEC243E266 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ODSerializationTest_iOS;
+			productName = Tests;
+			productReference = FA2C30321C007E3300BD3CE5 /* ODSerializationTest_iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA7451201C0648C7008A9024 /* ODSerialization-WatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7451271C0648C7008A9024 /* Build configuration list for PBXNativeTarget "ODSerialization-WatchOS" */;
+			buildPhases = (
+				1737B2C589DE3583EABC7727 /* [CP] Check Pods Manifest.lock */,
+				FA74511D1C0648C7008A9024 /* Sources */,
+				FA74511E1C0648C7008A9024 /* Frameworks */,
+				FA74511F1C0648C7008A9024 /* Copy Files */,
+				EF95DFC56E1DAEF85DC28AA3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ODSerialization-WatchOS";
+			productName = "ODXSerialization-WatchOS";
+			productReference = FA7451211C0648C7008A9024 /* libODSerialization-WatchOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA7DFEE51CF2540500160F1E /* sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7DFEEA1CF2540500160F1E /* Build configuration list for PBXNativeTarget "sample" */;
+			buildPhases = (
+				23585B1331D76037B3A51D31 /* [CP] Check Pods Manifest.lock */,
+				FA7DFEE21CF2540500160F1E /* Sources */,
+				FA7DFEE31CF2540500160F1E /* Frameworks */,
+				FA7DFEE41CF2540500160F1E /* CopyFiles */,
+				805FA9883653B80C0EF7E0C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7DFEF61CF254D200160F1E /* PBXTargetDependency */,
+			);
+			name = sample;
+			productName = sample;
+			productReference = FA7DFEE61CF2540500160F1E /* sample */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2C301A1C007E1300BD3CE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = AJR;
+				TargetAttributes = {
+					FA16A5F81C0506DD00394311 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					FA2C30211C007E1300BD3CE5 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					FA2C30311C007E3300BD3CE5 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					FA7451201C0648C7008A9024 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					FA7DFEE51CF2540500160F1E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FA2C301D1C007E1300BD3CE5 /* Build configuration list for PBXProject "ODXSerialization" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA2C30191C007E1300BD3CE5;
+			productRefGroup = FA2C30231C007E1300BD3CE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2C30211C007E1300BD3CE5 /* ODSerialization */,
+				FA16A5F81C0506DD00394311 /* ODSerialization-OSX */,
+				FA7451201C0648C7008A9024 /* ODSerialization-WatchOS */,
+				FA2C30311C007E3300BD3CE5 /* ODSerializationTest_iOS */,
+				FA16A6311C05E96400394311 /* ODSerializationTest_OSX */,
+				FA7DFEE51CF2540500160F1E /* sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA16A63C1C05E96400394311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C30301C007E3300BD3CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1737B2C589DE3583EABC7727 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		21652B0D710DC08DCF2EE3B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ODSerializationTest_iOS/Pods-ODSerializationTest_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23585B1331D76037B3A51D31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		524731926DE9A1685EE27C74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ODSerializationTest_OSX/Pods-ODSerializationTest_OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC01FE486423FFEC243E266 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ODSerializationTest_iOS/Pods-ODSerializationTest_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		805FA9883653B80C0EF7E0C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample/Pods-sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACAF2EFED5C3147D3886063E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3E6FE60E4C83A3C695C2AE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA818E688CB58EC4EE4B78C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ODSerialization-OSX/Pods-ODSerialization-OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE29A2BFBDD5CFFE2070CC44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE41BF432631D1303047E894 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ODSerializationTest_OSX/Pods-ODSerializationTest_OSX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB3D210050B8A350E0683934 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF95DFC56E1DAEF85DC28AA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ODSerialization-WatchOS/Pods-ODSerialization-WatchOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBAD430ABB31DC421FA114C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ODSerialization/Pods-ODSerialization-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA16A5F51C0506DD00394311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA16A6341C05E96400394311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA16A6371C05E96400394311 /* ODXSerialization_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C301E1C007E1300BD3CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2C302E1C007E3300BD3CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C30351C007E3300BD3CE5 /* ODXSerialization_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74511D1C0648C7008A9024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7DFEE21CF2540500160F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7DFEE91CF2540500160F1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA7DFEF61CF254D200160F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA16A5F81C0506DD00394311 /* ODSerialization-OSX */;
+			targetProxy = FA7DFEF51CF254D200160F1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA16A6001C0506DE00394311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72FFB7F003C323FF3B53AD21 /* Pods-ODSerialization-OSX.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA16A6011C0506DE00394311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57190F95BE9E81273140C371 /* Pods-ODSerialization-OSX.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA16A6401C05E96400394311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68948FF06C4C9A72891FC0C /* Pods-ODSerializationTest_OSX.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazaroff.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA16A6411C05E96400394311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DCA156F7EFD0509CD680371 /* Pods-ODSerializationTest_OSX.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazaroff.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA2C30291C007E1300BD3CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA2C302A1C007E1300BD3CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2C302C1C007E1300BD3CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CDE5CA515D1224648207B13 /* Pods-ODSerialization.debug.xcconfig */;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Debug;
+		};
+		FA2C302D1C007E1300BD3CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDEDFF25FD4F6225880D7EB4 /* Pods-ODSerialization.release.xcconfig */;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Release;
+		};
+		FA2C303B1C007E3300BD3CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73F8A00E7A3B1959138E5CE /* Pods-ODSerializationTest_iOS.debug.xcconfig */;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazaroff.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA2C303C1C007E3300BD3CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3CC0FA302097F6BF1D65B33 /* Pods-ODSerializationTest_iOS.release.xcconfig */;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazaroff.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA7451281C0648C7008A9024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB337009F7CE1A87F081B37 /* Pods-ODSerialization-WatchOS.debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		FA7451291C0648C7008A9024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222F54A6EEE569CD96F7EC9F /* Pods-ODSerialization-WatchOS.release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		FA7DFEEB1CF2540500160F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F4F391CC927DB4A7B4E3DD /* Pods-sample.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lODXSerialization-OSX",
+					"-lODXCore-OSX",
+					"-lODObjCRuntime-OSX",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA7DFEEC1CF2540500160F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF779C223A21655D1310964 /* Pods-sample.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lODXSerialization-OSX",
+					"-lODXCore-OSX",
+					"-lODObjCRuntime-OSX",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA16A5FF1C0506DE00394311 /* Build configuration list for PBXNativeTarget "ODSerialization-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA16A6001C0506DE00394311 /* Debug */,
+				FA16A6011C0506DE00394311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA16A63F1C05E96400394311 /* Build configuration list for PBXNativeTarget "ODSerializationTest_OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA16A6401C05E96400394311 /* Debug */,
+				FA16A6411C05E96400394311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2C301D1C007E1300BD3CE5 /* Build configuration list for PBXProject "ODXSerialization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2C30291C007E1300BD3CE5 /* Debug */,
+				FA2C302A1C007E1300BD3CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2C302B1C007E1300BD3CE5 /* Build configuration list for PBXNativeTarget "ODSerialization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2C302C1C007E1300BD3CE5 /* Debug */,
+				FA2C302D1C007E1300BD3CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2C303A1C007E3300BD3CE5 /* Build configuration list for PBXNativeTarget "ODSerializationTest_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2C303B1C007E3300BD3CE5 /* Debug */,
+				FA2C303C1C007E3300BD3CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7451271C0648C7008A9024 /* Build configuration list for PBXNativeTarget "ODSerialization-WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7451281C0648C7008A9024 /* Debug */,
+				FA7451291C0648C7008A9024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7DFEEA1CF2540500160F1E /* Build configuration list for PBXNativeTarget "sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7DFEEB1CF2540500160F1E /* Debug */,
+				FA7DFEEC1CF2540500160F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2C301A1C007E1300BD3CE5 /* Project object */;
+}

@@ -164,7 +164,7 @@ NSObject *JSONObjectWithString(NSString *json) {
     NSString *jsonString = @"{\"title\":\"Title\",\"count\":10,\"items\":[{\"title\":null,\"count\":0,\"items\":null},{\"title\":null,\"count\":0,\"items\":null}]}";
     NSDictionary *jsonDict = [NSJSONSerialization JSONObjectWithData:[jsonString dataUsingEncoding:NSUTF8StringEncoding] options:0 error:nil];
     Obj *obj = [Obj od_constructWithObject:jsonDict error:nil];
-    
+    XCTAssert(obj);
 }
 
 - (void)testODSerialize {

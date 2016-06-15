@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency 'ODX.Core', '~> 1.5'
   s.dependency 'ODObjCRuntime', '~> 1.1'
+  s.deprecated_in_favor_of = 'ODSerialization'
 end

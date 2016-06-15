@@ -10,7 +10,7 @@
 #import "ODObjectParser.h"
 #import "NSObject+ODSerialization.h"
 #import "NSObject+ODDeserialization.h"
-#import <ODObjCRuntime/ODObjCRuntime.h>
+#import "ODObjCRuntime.h"
 
 @interface ODTestWorker : NSObject <ODDataObject> {
     NSNumber *_tag;
